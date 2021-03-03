@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto;
+}
+.top {
+    background: #E0E1E2;
+    padding-top: 25px;
+    padding-bottom: 48px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.top__image {
+    margin-top: 94px;
+    height: 256px;
+    background-image: url(images/MX-Master1.png);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    margin-bottom: 41px;
+}
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
+.top__text-margin {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+.top__arrow {
+    margin-top: 40px;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+}
