@@ -161,3 +161,34 @@ body {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.mouse__img {
+    height: 310px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mouse__img_1 {
+    background-image: url(images/image_1.jpg);
+}
+.mouse__img_2 {
+    background-image: url(images/image_2.jpg);
+}
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    
+}
