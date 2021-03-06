@@ -190,5 +190,21 @@ body {
 }
 
 @media (min-width: 768px) {
-    
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+    .header__logo {
+        width: 240px;
+    }
+    .top__image {
+        margin-top: 159px;
+        height: 514px;
+        margin-bottom: 124px;
+    }
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
 }
