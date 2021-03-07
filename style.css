@@ -6,6 +6,8 @@ body {
     background: #E0E1E2;
     padding-top: 25px;
     padding-bottom: 48px;
+    /* max-width: 1160px; */
+    margin: auto;
 }
 .header {
     display: flex;
@@ -294,5 +296,69 @@ body {
     }
     .text_flow:last-child {
         padding-right: 0;
+    }
+    .settings {
+        padding-bottom: 70px;
+    }
+    .settings__slider {
+        margin: 54px 198px 150px ;
+    }
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .settings__icons {
+        margin-right: 104px;
+        margin-left: 98px;
+    }
+    .settings__img {
+        height: 35px;
+    }
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .heading_settings {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+        /* font-size: 24px;
+        line-height: 28px; */
+    }
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 64px;
+        padding-bottom: 50px;
+    }
+    .mouse__img {
+        height: 549px;
+    }
+    .mouse__img_1 {
+        background-image: url(images/image\ 1.jpg);
+    }
+    .mouse__img_2 {
+        background-image: url(images/image\ 2.jpg);
+    }
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
+        padding-bottom: 71px;
+    }
+}
+
+/* Компьютеры/ноутбуки */
+@media (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
     }
 }
