@@ -4,14 +4,21 @@ body {
 }
 .top {
     background: #E0E1E2;
-    padding-top: 25px;
     padding-bottom: 48px;
-    /* max-width: 1160px; */
-    margin: auto;
 }
 .header {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    padding-top: 25px;
+}
+.navbar-light .navbar-toggler {
+    position: absolute;
+    right: 25px;
+}
+.header__logo_white {
+    display: none;
 }
 .top__image {
     margin-top: 94px;
@@ -198,15 +205,24 @@ body {
     color: #C7C8C8;
     padding-top: 22px;
 }
-
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: center;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Планшеты/большие телефоны/мелкие(очень мелкие) компьютеры: */
 @media (min-width: 768px) {
     .top {
-        padding-top: 54px;
         padding-bottom: 80px;
     }
     .header__logo {
         width: 240px;
+    }
+    .navbar {
+        padding-top: 54px;
     }
     .top__image {
         margin-top: 159px;
@@ -360,5 +376,19 @@ body {
     .center {
         padding-left: calc(50% - 580px);
         padding-right: calc(50% - 580px);
+    }
+    .header__logo_dark {
+        display: none;
+    }
+    .header__logo_white {
+        display: block;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
